@@ -264,7 +264,8 @@ public class ChooseLockPattern extends SettingsActivity {
                     mLockPatternView.removeCallbacks(mClearPatternRunnable);
                 }
 
-                public void onPatternDetected(List<LockPatternView.Cell> pattern, byte patternSize) {
+                public void onPatternDetected(List<LockPatternView.Cell> pattern,
+                        byte patternSize) {
                     if (mUiStage == Stage.NeedToConfirm || mUiStage == Stage.ConfirmWrong) {
                         if (mChosenPattern == null) throw new IllegalStateException(
                                 "null chosen pattern in stage 'need to confirm");
