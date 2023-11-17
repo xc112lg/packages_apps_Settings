@@ -21,10 +21,13 @@
     android:key="fast_charging_settings"
     android:title="@string/fast_charging_title">
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="fast_charging_intro"
+        android:title="@string/fast_charging_summary"/>
+
     <SwitchPreference
         android:key="fast_charging_switch"
-        android:title="@string/fast_charging_title"
-        android:summary="@string/fast_charging_summary"/>
+        android:title="@string/fast_charging_title"/>
 
     <com.evolution.settings.preference.CustomSeekBarPreference
         android:key="restricted_current"
