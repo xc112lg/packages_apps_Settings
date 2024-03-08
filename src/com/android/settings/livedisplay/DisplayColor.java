@@ -29,7 +29,7 @@ import android.widget.TextView;
 import com.android.settings.widget.IntervalSeekBar;
 import com.android.settings.R;
 
-import com.android.internal.custom.hardware.LiveDisplayManager;
+import lineageos.hardware.LiveDisplayManager;
 
 import com.evolution.settings.preference.CustomDialogPreference;
 

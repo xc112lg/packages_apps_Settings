@@ -30,8 +30,8 @@ import android.widget.TextView;
 import com.android.settings.R;
 import com.android.internal.util.custom.MathUtils;
 
-import com.android.internal.custom.hardware.LiveDisplayConfig;
-import com.android.internal.custom.hardware.LiveDisplayManager;
+import lineageos.hardware.LiveDisplayConfig;
+import lineageos.hardware.LiveDisplayManager;
 
 import com.evolution.settings.preference.CustomDialogPreference;
 
